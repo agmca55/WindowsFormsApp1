@@ -9,12 +9,12 @@ namespace WindowsFormsApp1
     static class Program
     {
         /// <summary>
-        ///  Master branch - The main entry point for the application.
-        ///  Adding Try branch changes
+        ///  Master branch - The main entry point for the application.       
         /// </summary>
         [STAThread]
         static void Main()
         {
+            // this is try branch changes
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new RadForm1());
