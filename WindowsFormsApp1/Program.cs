@@ -10,6 +10,7 @@ namespace WindowsFormsApp1
     {
         /// <summary>
         ///  Master branch - The main entry point for the application.
+        ///  Adding Try branch changes
         /// </summary>
         [STAThread]
         static void Main()
