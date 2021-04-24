@@ -10,6 +10,7 @@ namespace WindowsFormsApp1
     {
         /// <summary>
         ///  Master branch - The main entry point for the application.
+      
         /// </summary>
         [STAThread]
         static void Main()
@@ -17,6 +18,7 @@ namespace WindowsFormsApp1
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new RadForm1());
+            //This is dev branch changes
         }
     }
 }
